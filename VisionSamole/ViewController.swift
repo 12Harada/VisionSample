@@ -19,7 +19,9 @@ class ViewController: UIViewController {
     //private let originalImage = UIImage(named: "sample2.jpg")
     //private let originalImage = UIImage(named: "sample6.jpg")
     //private let originalImage = UIImage(named: "sample8.jpg")
-    private let originalImage = UIImage(named: "sampleText.jpg")
+    //private let originalImage = UIImage(named: "sampleText.jpg")
+    //up:指示数部分のみ切り取り　Smoothing:平滑化　2value:2値化
+    private let originalImage = UIImage(named: "meter2_2value.jpg")
 
     override func viewDidLoad() {
         sampleImage.image = originalImage

@@ -18,6 +18,14 @@
 		7321695D2247B5DC005748FB /* sample6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7321695C2247B5DC005748FB /* sample6.jpg */; };
 		7321695F2247B5E0005748FB /* sample8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7321695E2247B5E0005748FB /* sample8.jpg */; };
 		732169612247B7FE005748FB /* sampleText.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 732169602247B7FE005748FB /* sampleText.jpg */; };
+		732169632247C5B9005748FB /* meter1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 732169622247C5B9005748FB /* meter1.jpg */; };
+		732169672247C5CB005748FB /* meter3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 732169662247C5CA005748FB /* meter3.jpg */; };
+		732169692247C7D9005748FB /* meter1_up.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 732169682247C7D9005748FB /* meter1_up.jpg */; };
+		7321696B2247C93D005748FB /* meter1_Smoothing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7321696A2247C93D005748FB /* meter1_Smoothing.jpg */; };
+		7321696D2247CBF4005748FB /* meter1_2value.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7321696C2247CBF4005748FB /* meter1_2value.jpg */; };
+		7321696F2247CC68005748FB /* meter2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7321696E2247CC68005748FB /* meter2.jpg */; };
+		732169712247CD16005748FB /* meter2_up.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 732169702247CD16005748FB /* meter2_up.jpg */; };
+		732169752247CED1005748FB /* meter2_2value.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 732169742247CED1005748FB /* meter2_2value.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +42,14 @@
 		7321695C2247B5DC005748FB /* sample6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample6.jpg; sourceTree = "<group>"; };
 		7321695E2247B5E0005748FB /* sample8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample8.jpg; sourceTree = "<group>"; };
 		732169602247B7FE005748FB /* sampleText.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sampleText.jpg; sourceTree = "<group>"; };
+		732169622247C5B9005748FB /* meter1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meter1.jpg; sourceTree = "<group>"; };
+		732169662247C5CA005748FB /* meter3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meter3.jpg; sourceTree = "<group>"; };
+		732169682247C7D9005748FB /* meter1_up.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meter1_up.jpg; sourceTree = "<group>"; };
+		7321696A2247C93D005748FB /* meter1_Smoothing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meter1_Smoothing.jpg; sourceTree = "<group>"; };
+		7321696C2247CBF4005748FB /* meter1_2value.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meter1_2value.jpg; sourceTree = "<group>"; };
+		7321696E2247CC68005748FB /* meter2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = meter2.jpg; path = ../../../Downloads/meter2.jpg; sourceTree = "<group>"; };
+		732169702247CD16005748FB /* meter2_up.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meter2_up.jpg; sourceTree = "<group>"; };
+		732169742247CED1005748FB /* meter2_2value.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = meter2_2value.jpg; path = ../../../Downloads/meter2_2value.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +82,21 @@
 		7321693E2246DEB4005748FB /* VisionSamole */ = {
 			isa = PBXGroup;
 			children = (
+				7321693F2246DEB4005748FB /* AppDelegate.swift */,
+				732169432246DEB4005748FB /* Main.storyboard */,
+				732169622247C5B9005748FB /* meter1.jpg */,
+				732169682247C7D9005748FB /* meter1_up.jpg */,
+				7321696A2247C93D005748FB /* meter1_Smoothing.jpg */,
+				7321696C2247CBF4005748FB /* meter1_2value.jpg */,
+				7321696E2247CC68005748FB /* meter2.jpg */,
+				732169702247CD16005748FB /* meter2_up.jpg */,
+				732169742247CED1005748FB /* meter2_2value.jpg */,
+				732169662247C5CA005748FB /* meter3.jpg */,
+				7321695A2247B20E005748FB /* sample2.jpg */,
 				7321695C2247B5DC005748FB /* sample6.jpg */,
 				7321695E2247B5E0005748FB /* sample8.jpg */,
 				732169602247B7FE005748FB /* sampleText.jpg */,
-				7321695A2247B20E005748FB /* sample2.jpg */,
-				7321693F2246DEB4005748FB /* AppDelegate.swift */,
 				732169412246DEB4005748FB /* ViewController.swift */,
-				732169432246DEB4005748FB /* Main.storyboard */,
 				732169562246E2ED005748FB /* Resnet50.mlmodel */,
 				732169492246DEB7005748FB /* Assets.xcassets */,
 				7321694B2246DEB7005748FB /* LaunchScreen.storyboard */,
@@ -142,11 +166,19 @@
 			files = (
 				7321694D2246DEB7005748FB /* LaunchScreen.storyboard in Resources */,
 				7321694A2246DEB7005748FB /* Assets.xcassets in Resources */,
+				7321696F2247CC68005748FB /* meter2.jpg in Resources */,
+				732169692247C7D9005748FB /* meter1_up.jpg in Resources */,
 				7321695F2247B5E0005748FB /* sample8.jpg in Resources */,
+				7321696D2247CBF4005748FB /* meter1_2value.jpg in Resources */,
 				732169452246DEB4005748FB /* Main.storyboard in Resources */,
+				732169712247CD16005748FB /* meter2_up.jpg in Resources */,
 				7321695D2247B5DC005748FB /* sample6.jpg in Resources */,
 				7321695B2247B20E005748FB /* sample2.jpg in Resources */,
 				732169612247B7FE005748FB /* sampleText.jpg in Resources */,
+				7321696B2247C93D005748FB /* meter1_Smoothing.jpg in Resources */,
+				732169752247CED1005748FB /* meter2_2value.jpg in Resources */,
+				732169672247C5CB005748FB /* meter3.jpg in Resources */,
+				732169632247C5B9005748FB /* meter1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
